@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Simple online safety habits and beginner cybersecurity topics.">
+    <link rel="canonical" href="https://kokulo096-afk.github.io/kokulo096-gmail.com/cybersecurity.html">
+    <title>Cybersecurity | My First Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+    <div class="header-inner">
+        <a class="brand" href="index.html">My first website</a>
+        <nav aria-label="Main navigation">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a aria-current="page" href="cybersecurity.html">Cybersecurity</a></li>
+                <li><a href="login.html">Log in</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main class="guide-main">
+    <section class="guide-hero" aria-labelledby="page-title">
+        <div>
+            <p class="eyebrow">The basics</p>
+            <h1 id="page-title">Cybersecurity</h1>
+            <p class="hero-copy">Small habits can make a big difference in keeping your accounts and devices safer online.</p>
+        </div>
+        <img class="guide-image" src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Digital code glowing on a computer screen">
+    </section>
+    <section class="guide-section" aria-labelledby="basics-title">
+        <h2 id="basics-title">Start with the basics</h2>
+        <p>Cybersecurity is the practice of protecting computers, accounts, and information from online threats. These are useful places to begin:</p>
+        <ul class="topic-list">
+            <li>Use a unique password for each account, and turn on multi-factor authentication.</li>
+            <li>Pause before opening unexpected links or attachments.</li>
+            <li>Install updates for your devices and apps.</li>
+        </ul>
+    </section>
+    <section class="checklist-section" aria-labelledby="checklist-title">
+        <p class="eyebrow">A quick check-in</p>
+        <h2 id="checklist-title">My online safety habits</h2>
+        <p>Check the habits you already use. Your choices are saved in this browser.</p>
+        <div class="checklist">
+            <label class="checklist-item">
+                <input type="checkbox" data-safety-check="passwords">
+                <span><strong>Unique passwords</strong><small>I don't reuse important passwords.</small></span>
+            </label>
+            <label class="checklist-item">
+                <input type="checkbox" data-safety-check="mfa">
+                <span><strong>Extra sign-in protection</strong><small>I use multi-factor authentication where it's available.</small></span>
+            </label>
+            <label class="checklist-item">
+                <input type="checkbox" data-safety-check="updates">
+                <span><strong>Up-to-date devices</strong><small>I install security updates for my devices and apps.</small></span>
+            </label>
+        </div>
+        <div class="checklist-tools">
+            <div class="progress-wrap">
+                <progress id="safety-progress" max="3" value="0">0 of 3</progress>
+                <p id="safety-status" role="status" aria-live="polite">0 of 3 habits checked.</p>
+            </div>
+            <button class="text-button" id="reset-checklist" type="button">Reset checklist</button>
+        </div>
+    </section>
+    <section class="guide-section resource-section" aria-labelledby="resources-title">
+        <h2 id="resources-title">Keep learning</h2>
+        <p>Only test security on systems you own or have clear permission to use.</p>
+        <a class="text-link" href="https://www.cisa.gov/secure-our-world" target="_blank" rel="noopener noreferrer">Read CISA's online safety tips</a>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="footer-inner">
+        <p>&copy; 2026 My first website</p>
+        <a href="index.html">Back to home</a>
+    </div>
+</footer>
+</body>
+</html>

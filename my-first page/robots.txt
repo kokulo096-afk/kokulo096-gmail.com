@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kokulo096-afk.github.io/kokulo096-gmail.com/sitemap.xml

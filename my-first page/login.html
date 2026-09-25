@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A front-end login form demo for My First Website.">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Log in | My First Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="login.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+    <div class="header-inner">
+        <a class="brand" href="index.html">My first website</a>
+        <nav aria-label="Main navigation">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cybersecurity.html">Cybersecurity</a></li>
+                <li><a aria-current="page" href="login.html">Log in</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main class="login-main">
+    <section class="login-panel" aria-labelledby="login-title">
+        <p class="eyebrow">Welcome back</p>
+        <h1 id="login-title">Log in</h1>
+        <p class="login-copy">Enter an email and password to try the form.</p>
+        <form class="login-form" id="login-form">
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password" autocomplete="current-password" required>
+            <button class="button-link" type="submit">Log in</button>
+        </form>
+        <p class="login-message" id="login-message" role="status" aria-live="polite"></p>
+        <p class="login-disclaimer">This is a front-end demo, not a real account system. Your credentials are not sent or saved.</p>
+        <a href="index.html">Back to homepage</a>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="footer-inner">
+        <p>&copy; 2026 My first website</p>
+        <a href="index.html">Back to home</a>
+    </div>
+</footer>
+</body>
+</html>
